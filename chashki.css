@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'miso-bold';
+    src: url('miso/miso-bold-webfont.woff2'), url('miso/miso-bold-webfont.woff');
+}
+
+@font-face {
+    font-family: 'miso-light';
+    src: url('miso/miso-light-webfont.woff'), url('miso/miso-light-webfont.woff2');
+}
+
+@font-face {
+    font-family: 'miso';
+    src: url('miso/miso-webfont.woff'), url('miso/miso-webfont.woff2')
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    width: 90%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    margin: 20px auto;
+    background-color: rgb(241, 215, 129);
+}
+
+.chashka {
+    background-color: cornsilk;
+    width: 30%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.chashka:nth-child(2) {
+    height: 90%;
+}
+
+.chashka:nth-child(2) img {
+    filter: brightness(1.8);
+}
+
+.chashka:nth-child(3) img {
+    filter: grayscale(1);
+}
+
+h1 {
+    color: green;
+    font-family: 'miso-bold';
+    font-size: 100px;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'miso-light';
+    font-size: 50px;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    font-family: 'miso';
+    font-size: 25px;
+}
+
+span {
+    display: block;
+}
